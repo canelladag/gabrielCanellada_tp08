@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la web -->
+    <title>Gabriel Canellada Web</title>
+    <!-- importación css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ícono de página -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Íconos -->
+    <script src="https://kit.fontawesome.com/0293a46a92.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <a href="" class="logo">GABRIEL CANELLADA</a>
+
+        <!-- Truco para el botón sea clickeable sin usar js -->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action"> 
+            <div class="fa-solid fa-bars"></div>
+        </label>
+        
+
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h5>Maquetador Web</h5>
+                <h4>Soporte Técnico L1</h4>
+                <h1>Gabriel Canellada</h1>
+                <p>Obtené tu página web personalizada y un servicio <br>
+                    de soporte técnico 24/7 para tu empresa</p>
+                <a class="cv" href="https://ibb.co/mRYCdnS" target="_blank">CV</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="./img/mi foto.jpg" alt="Gabriel Canellada foto">
+            </div>
+            <a class="cv-mobile" href="https://ibb.co/mRYCdnS.com" >CV</a>
+        </section>
+
+        <div class="icons">
+            <ul>
+            <li><a href=""><i class="fa-brands fa-facebook icon"></i></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin icon"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram icon"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="scroll-down">
+            <a href="#Footer"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
+        
+        <section class="seccion-proyecto" id="Proyectos">
+            <div class="div-proyecto div-proyecto1">
+                <p>Proyecto 1</p>
+                <a href="https://github.com/canelladag/TP-Estructura-de-un-sitio-web-"><img src="./img/página mercadoliebre.png" alt="página creada por gabriel canellada simil a mercadolibre"></a>
+            </div>
+            <div class="div-proyecto div-proyecto2">
+                <p>Proyecto 2</p>
+                <a href="#"><i class="fa-solid fa-image"></i></a>
+            </div>
+            <div class="div-proyecto div-proyecto3">
+                <p>Proyecto 3</p>
+                <a href="#"><i class="fa-solid fa-image"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer id="Footer">
+        <section class="footer-section">
+            <div>
+                <form class="contact-container" id="Contacto">
+                    <p>Contacto</p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                        <label for="correo">Email</label>
+                        <input type="email" name="correo" id="correo" placeholder="Escribe tu email">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu número">
+                        <p>Escribe tu consulta</p>
+                        <textarea name="Mensaje" id="Mensaje" cols="30" rows="5" placeholder="Mensaje">
+                        </textarea>
+                        <button type="submit" class="form-contacto-grupo-boton">Enviar</button>
+                </form> 
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+</html>
